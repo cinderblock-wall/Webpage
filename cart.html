@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cartstyle.css">
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="">
+          <a href="./index.html" target="_blank"> <object data="Images/sofetch2.svg" height="60"> </object>
+        </a></li>
+        <li style="float:right"><a href="#login">
+            <object data="Images/shopbag.svg" width="50" height="90"> </object>
+        </a></li>
+    </ul>
+   
+    <h2>Shopping Bag</h2>
+
+<table>
+  <tr>
+    <th>Item</th>
+    <th id="blank">blank</th>
+    <th>Quantity</th>
+    <th>Total Price</th>
+  </tr>
+  <tr>
+    <td><img src="Images/boots.webp" width="100px" alt=""></td>
+    <td>Cow Boy Boots</td>
+    <td>
+        <form action="/action_page.php">
+            <select name="quantity">
+              <option value="volvo">1</option>
+              <option value="saab">2</option>
+              <option value="opel">3</option>
+              <option value="audi">4</option>
+            </select>
+          </form>          
+    </td>
+    <td>$80.00</td>
+  </tr>
+  <tr>
+    <td><img src="Images/dufflebag.webp" width="100px" alt=""></td>
+    <td>Duffle Bag</td>
+    <td>
+        <form action="/action_page.php">
+            <select name="cars" id="cars">
+              <option value="volvo">1</option>
+              <option value="saab">2</option>
+              <option value="opel">3</option>
+              <option value="audi">4</option>
+            </select>
+          </form>          
+    </td>
+    <td>$50.00</td>
+  </tr>
+  <tr>
+    <td><img src="Images/heartsweat.webp" width="100px" alt=""></td>
+    <td>Heart Sweat Set</td>
+    <td>
+        <form action="/action_page.php">
+        <select name="cars" id="cars">
+          <option value="volvo">1</option>
+          <option value="saab">2</option>
+          <option value="opel">3</option>
+          <option value="audi">4</option>
+        </select>
+      </form>
+    </td>
+    <td>$70.00</td>
+  </tr>
+</table>
+
+</body>
+</html>
